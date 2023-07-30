@@ -1,0 +1,132 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+  margin: 0px;
+}
+.product-details-container {
+  padding: 20px;
+}
+.product-details-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  color: #475569;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.price {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: 700;
+}
+.rating-views-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rating-container {
+  width: 80px;
+  height: 40px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.rating-text {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 4px;
+}
+.start {
+  color: #ffffff;
+  height: 25px;
+  margin-left: 5px;
+}
+.review {
+  font-size: 18px;
+}
+.description {
+  color: #616e7c;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.small-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.before-text {
+  font-size: 18px;
+}
+.after-text {
+  font-size: 18px;
+}
+.brake-line {
+  color: #475569;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.qty-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.qty-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon {
+  color: #475569;
+  font-size: 30px;
+  padding-top: 2px;
+}
+.quantity {
+  font-size: 20px;
+}
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+.similar-products-heading {
+  color: #475569;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.similar-product-list-container {
+  padding-left: 0px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .product-details-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .product-details-image {
+    width: 35%;
+    margin-right: 20px;
+  }
+  .product-specs-container {
+    width: 40%;
+  }
+  .title {
+    margin-top: 0px;
+  }
+}
